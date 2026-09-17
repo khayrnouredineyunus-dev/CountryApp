@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Diambil dari sampling piksel screenshot Modul 6 (Show Calendar, Show Time Picker, dst) -->
+    <color name="purple_primary">#544A66</color>
+    <color name="purple_primary_dark">#443B54</color>
+    <color name="text_on_purple">#241C36</color>
+
+    <!-- Diambil dari mockup latihan Presensi pada modul -->
+    <color name="indigo_accent">#525CFF</color>
+    <color name="navy_title">#1E2A3B</color>
+    <color name="field_gray">#EDEDED</color>
+    <color name="field_gray_text">#828282</color>
 </resources>
