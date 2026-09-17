@@ -1,29 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.CountryApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_primary</item>
-        <item name="colorPrimaryDark">@color/purple_primary_dark</item>
-        <item name="colorAccent">@color/purple_primary</item>
-        <item name="materialButtonStyle">@style/Widget.App.Button.Purple</item>
-        <item name="android:statusBarColor">@color/purple_primary</item>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CountryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <!-- Tombol default (Show Calendar, Show Time Picker, dst) dibuat pill ungu, teks gelap non-kapital,
-         supaya sama seperti screenshot pada Modul 6 -->
-    <style name="Widget.App.Button.Purple" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">@color/purple_primary</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.App.Pill</item>
-        <item name="android:letterSpacing">0</item>
-    </style>
-
-    <style name="ShapeAppearance.App.Pill" parent="">
-        <item name="cornerSize">50%</item>
-    </style>
-
-    <!-- Dipakai untuk memberi aksen indigo pada CalendarView di layar Presensi -->
-    <style name="ThemeOverlay.App.Indigo" parent="ThemeOverlay.MaterialComponents.Light">
-        <item name="colorAccent">@color/indigo_accent</item>
-        <item name="colorControlActivated">@color/indigo_accent</item>
-    </style>
+    <style name="Theme.CountryApp" parent="Base.Theme.CountryApp" />
 </resources>
